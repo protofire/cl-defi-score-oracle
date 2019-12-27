@@ -2,7 +2,7 @@
 DefiScore is an Open Framework for Evaluating DeFi Protocols, a methodology for assessing risk in permissionless lending platforms.
 Scores are relative and calculated from eight attributes across three categories: smart contract risk (50%), financial risk (35%), & regulatory risk (15%)
 
-This MVP creates an External Adapter that returns the score of a given asset on a lending platform, and a Consumer smart contract which will request the rate on demand.
+This MVP creates an External Adapter that returns the score of a given asset on a lending platform, and a Consumer smart contract which will request the score on demand.
 
 Parameters:
 - Assets: `dai` | `sai` | `usdc` | `eth` | `wbtc` | `rep` | `zrx` | `bat` | `tusd` | `usdt`
